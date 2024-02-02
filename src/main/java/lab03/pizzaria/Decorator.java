@@ -10,7 +10,7 @@ package lab03.pizzaria;
  */
 public class Decorator implements Pizza {
     
-    Pizza pizza;
+    protected Pizza pizza;
     
     public Decorator(Pizza pizza) {
         this.pizza = pizza;
